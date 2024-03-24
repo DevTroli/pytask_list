@@ -1,5 +1,106 @@
 # Task List App with Typer, Rich and Python
 
+#### 🚧 pip version under development, not yet 100% functional 🚧
+
+### Pre-requisite
+To use this application, you need to have the following software installed on your computer:
+* **Python 3.8 or higher**
+* **Typer:** A Python library for creating interactive command line interfaces. You can install Typer with the command 
+	
+	 	pip install "typer[all]"
+	
+
+### Installation Steps
+
+1. Clone this repository to your computer: 
+
+		git clone https://github.com/DevTroli/PyTask-List.git
+
+3. Navigate to the application directory:
+
+		cd Task-List
+
+6. You can create a Python virtual environment to isolate the application dependencies from the rest of your system. To do this, use the command (I'm using Linux)
+		
+		python -m venv venv
+
+    and activate the environment with:
+		
+  		source venv/bin/activate
+
+   
+   
+5. Run an app function with the command 
+
+		python todo.py [FEATURE]
+
+
+### Pre-requisite
+To use this application, you need to have the following software installed on your computer:
+* **Python 3.8 or higher**
+* **Typer:** A Python library for creating interactive command line interfaces. You can install Typer with the command 
+	
+	 	pip install "typer[all]"
+	
+
+### Installation Steps
+
+1. Clone this repository to your computer: 
+
+		git clone https://github.com/DevTroli/PyTask-List.git
+
+3. Navigate to the application directory:
+
+		cd Task-List
+
+6. You can create a Python virtual environment to isolate the application dependencies from the rest of your system. To do this, use the command (I'm using Linux)
+		
+		python -m venv venv
+
+    and activate the environment with:
+		
+  		source venv/bin/activate
+
+   
+   
+5. Run an app function with the command 
+
+		python todo.py [FEATURE]
+
+
+### Pre-requisite
+To use this application, you need to have the following software installed on your computer:
+* **Python 3.8 or higher**
+* **Typer:** A Python library for creating interactive command line interfaces. You can install Typer with the command 
+	
+	 	pip install "typer[all]"
+	
+
+### Installation Steps
+
+1. Clone this repository to your computer: 
+
+		git clone https://github.com/DevTroli/PyTask-List.git
+
+3. Navigate to the application directory:
+
+		cd Task-List
+
+6. You can create a Python virtual environment to isolate the application dependencies from the rest of your system. To do this, use the command (I'm using Linux)
+		
+		python -m venv venv
+
+    and activate the environment with:
+		
+  		source venv/bin/activate
+
+   
+   
+5. Run an app function with the command 
+
+		python todo.py [FEATURE]
+
+
 ## Introduction
 
 This document describes a task list application developed with Typer and documented in Markdown. Typer is a Python library that makes it easy to create interactive command line interfaces, while Markdown is a lightweight markup language for text formatting.
@@ -9,27 +110,33 @@ To use this application, you need to have the following software installed on yo
 * **Python 3.8 or higher**
 * **Typer:** A Python library for creating interactive command line interfaces. You can install Typer with the command 
 	
-	 	pip install typer
+	 	pip install "typer[all]"
 	
 
 ### Installation Steps
 
 1. Clone this repository to your computer: 
-		git clone https://github.com/your_username/task_app.git
 
-2. Navigate to the application directory:
-		cd Task_app
+		git clone https://github.com/DevTroli/PyTask-List.git
 
-3. Install the application dependencies with the command :
-		 pip install -r requirements.txt
+3. Navigate to the application directory:
 
-4. You can create a Python virtual environment to isolate the application dependencies from the rest of your system. To do this, use the command (I'm using Linux)
+		cd PyTask-List && cd pytask_list
+
+6. You can create a Python virtual environment to isolate the application dependencies from the rest of your system. To do this, use the command (I'm using Linux)
 		
-		python -m venv venv
-and activate the environment with:
-		source venv/bin/activate
+		python -m venv .venv
+
+    and activate the environment with:
+		
+  		source .venv/bin/activate
+
+   
+   
 5. Run an app function with the command 
-		python todo.py run [FEATURE]
+
+		python pytask_list.py [FEATURE]
+
 
 ### Application Features
 
@@ -70,14 +177,9 @@ Add a new task to the list.
 
 **Example:**
 
-**For use with Typer/typer CLI**
-	
-	$ typer todo.py add "Task 1" "category 1"
-	
-
 **For use with Python**
 	
-	 $ python todo.py add "Task 1" "category 1"
+	 $ python pytask_list.py add "Task 1" "category 1"
 	
 
 #### 2. Command Remove
@@ -89,14 +191,9 @@ Delete a task from the list by position.
 
 **Example:**
 
-**For use with Typer/typer CLI**
-	
-	$ typer todo.py remove 1 
-	
-
 **For use with Python**
 	
-	 $ python todo.py remove 1 
+	 $ python pytask_list.py remove 1 
 	
 
 #### 3. Command Update
@@ -112,14 +209,9 @@ Modify the task or category of a task.
 
 **Example:**
 
-**For use with Typer/typer CLI**
-	
-	$ typer todo.py update 1 "Buy bread, milk and fruits" House
-	
-
 **For use with Python**
 	
-	 $ python todo.py update 1 "Buy bread, milk and fruits" House
+	 $ python pytask_list.py update 1 "Buy bread, milk and fruits" House
 	
 
 #### 4.  Command Show
@@ -140,14 +232,9 @@ Mark a task as completed.
 
 **Example:**
 
-**For use with Typer/typer CLI**
-	
-	 $ typer todo.py task_done 1
-	
-
 **For use with Python**
 	
-	 $ python todo.py task_done 1
+	 $ python pytask_list.py task_done 1
 	
 
 ## License
