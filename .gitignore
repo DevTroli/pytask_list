@@ -1,0 +1,3 @@
+.venv/
+pypirc.pypi
+pytask_list.egg-info/
